@@ -9,3 +9,6 @@ class TestCalculator(unittest.TestCase):
     def test_add_negative_numbers(self):
         result = add(-1, -1)
         self.assertEqual(result, -2)
+
+if __name__ == '__main__':
+    unittest.main()
