@@ -1,2 +1,2 @@
 import unittest
-from calculator import
+from calculator import add
