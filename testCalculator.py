@@ -1,5 +1,6 @@
 import unittest
 from calculator import add
+from calculator import sub
 
 class TestCalculator(unittest.TestCase):
     def test_add_two_numbers(self):
