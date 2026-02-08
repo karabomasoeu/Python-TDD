@@ -15,5 +15,9 @@ class TestCalculator(unittest.TestCase):
         result = sub(3, 2)
         self.assertEqual(result, 1)
 
+    def test_sub_negative_numbers(self):
+        result = sub(-1, -1)
+        self.assertEqual(result, 0)
+
 if __name__ == '__main__':
     unittest.main()
