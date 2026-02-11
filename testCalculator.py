@@ -26,5 +26,9 @@ class TestCalculator(unittest.TestCase):
         result = multiply(5, 0)
         self.assertEqual(result, 0)
 
+    def test_multiply_negative_numbers(self):
+        result = multiply(-2, -3)
+        self.assertEqual(result, 6)
+
 if __name__ == '__main__':
     unittest.main()
