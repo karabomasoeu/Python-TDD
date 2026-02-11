@@ -19,5 +19,9 @@ class TestCalculator(unittest.TestCase):
         result = sub(-1, -1)
         self.assertEqual(result, 0)
 
+    def test_multiply_positive_numbers(self):
+        result = multiply(3, 4)
+        self.assertEqual(result, 12)
+
 if __name__ == '__main__':
     unittest.main()
