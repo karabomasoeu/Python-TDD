@@ -23,5 +23,9 @@ class TestCalculator(unittest.TestCase):
         result = multiply(3, 4)
         self.assertEqual(result, 12)
 
+    def test_multiply_by_zero(self):
+        result = multiply(5, 0)
+        self.assertEqual(result, 0)
+
 if __name__ == '__main__':
     unittest.main()
