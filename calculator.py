@@ -6,3 +6,6 @@ def sub(c, d):
 
 def multiply(e, f):
     return e * f
+
+def divide(g, h):
+    return g / h
