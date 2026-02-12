@@ -23,7 +23,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(result, 12)
 
     def test_multiply_by_zero(self):
-        result = multiply(5, 0)
+        result = multiply(0, 5)
         self.assertEqual(result, 0)
 
     def test_multiply_negative_numbers(self):
