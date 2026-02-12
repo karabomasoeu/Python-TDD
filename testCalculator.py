@@ -38,5 +38,9 @@ class TestCalculator(unittest.TestCase):
         result = divide(-6, -2)
         self.assertEqual(result, 3)
 
+    def test_divide_by_zero(self):
+        result = divide(0, 6)
+        self.assertEqual(result, 0)
+
 if __name__ == '__main__':
     unittest.main()
