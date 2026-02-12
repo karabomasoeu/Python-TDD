@@ -34,5 +34,9 @@ class TestCalculator(unittest.TestCase):
         result = divide(6, 2)
         self.assertEqual(result, 3)
 
+    def test_divide_negative_numbers(self):
+        result = divide(-6, -2)
+        self.assertEqual(result, 3)
+
 if __name__ == '__main__':
     unittest.main()
