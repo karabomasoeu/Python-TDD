@@ -42,5 +42,9 @@ class TestCalculator(unittest.TestCase):
         result = divide(0, 6)
         self.assertEqual(result, 0)
 
+    def test_divide_by_zero_raisesError():
+    with pytest.raises(ValueError):
+        divide(6, 0)
+
 if __name__ == '__main__':
     unittest.main()
