@@ -1,2 +1,2 @@
 import unittest 
-from FizzBuzz import
+from FizzBuzz import FizzBuzz
